@@ -34,7 +34,7 @@ int main() {
     // TODO: Change BASE_DIR to KITTI dataset directory on your machine.
     const string BASE_DIR               = "/home/mohamed/Desktop/Thesis Project/dataset/";
 
-    const string IMAGE_DATASET_PATH     = BASE_DIR + "/Camera/data_tracking_image_2/training/image_02/";
+    const string IMAGE_DATASET_PATH     = BASE_DIR + "/Camera/training/image_02/";
     const string IMAGE_PREFIX           = ImageStream::ImageType::IMAGE_PNG; /// Image extension.
     const int FPS                       = 1000;       /// 10 images per second.
     const int ONE_SECOND                = 1000;
@@ -46,7 +46,6 @@ int main() {
     // Calibration Settings
     const string CALIB_BASE_PATH            = BASE_DIR + "/LiDAR/training/calib/";
     const string CALIB_FILE_PATH            = CURRENT_STREAM + ".txt";
-    const float SHRINK_FACTOR               = 0.2; /// shrink 10% of the bounding box to exclude most irrelevant point clouds
 
     // IMU Sensor Settings
     const string IMU_DATASET_PATH           = BASE_DIR + "/IMU/training/oxts/";
