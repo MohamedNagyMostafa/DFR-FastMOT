@@ -1,4 +1,4 @@
-# DFR-FastMOT: A Robust Tracker for Fast Multi-Object Tracking with Sensor Fusion
+# DFR-FastMOT: Detection Failure Resistant Tracker for Fast Multi-Object Tracking Based on Sensor Fusion
 
 Welcome to the DFR-FastMOT repository, showcasing the complete implementation of our innovative tracking model. The research is presented in [IEEE ICRA23 conference](https://ieeexplore.ieee.org/document/10160328). For those interested, the pre-print version is available on [arXiv](https://arxiv.org/abs/2302.14807).
 
